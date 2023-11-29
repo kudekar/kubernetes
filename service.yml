@@ -10,6 +10,7 @@ spec:
     app: myappmy-app-home-svc
   ports:
   - port: 80
+    name: httpd
     targetPort: 80
 ---
 apiVersion: v1
