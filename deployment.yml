@@ -16,8 +16,8 @@ spec:
         apps: home
       spec:
       containers:
-      - name:
-     hme    -  nasme: hose
+      - name: myhttp
+        nasme: hose
   
   lamage: <Image>
         rurces:
