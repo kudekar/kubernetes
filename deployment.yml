@@ -3,20 +3,28 @@ kind: apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: home
+  labels: 
+    app:
 spec:
   selector:
     matchLabels:
       app: home
   
+  labels: 
+    app:
   template:
     metadata:
       labels:
         app: home
     
+    labels: 
+      app:
     spec:
       containers:
       - name: home
   
+  labels: 
+    app:
         image: <Image>
         resources:
           limits:
