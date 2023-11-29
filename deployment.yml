@@ -39,7 +39,7 @@ spec:
         apps: home2
       spec:
       containers:
-      - name: nginx
-        image: httpd
+      - name: home2
+        image: nginx
         ports:
         - containerPorts: 80
