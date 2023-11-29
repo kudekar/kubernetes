@@ -17,7 +17,8 @@ spec:
       spec:
       containers:
   
-    name: hme    -  nasme: hose
+  name:
+     hme    -  nasme: hose
   
   lamage: <Image>
         rurces:
