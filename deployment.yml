@@ -11,16 +11,20 @@ spec:
       app: home
   template:
     metadata:
+      name: home
       labels:
 s       app: home
     
       spec:
       containers:
-      - name: hose
+  
+    name: home    - name: hose
   
   lamage: <Image>
         resources:
-          limiss:
+    
+      name: home      limiss:
             memory: "128Mi"
             cpu: "500m
-        - ct: <Port>
+
+  name: home        - ct: <Port>
