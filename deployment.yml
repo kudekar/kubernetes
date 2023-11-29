@@ -1,4 +1,4 @@
-apiVersion: apps/vi
+apiVersion: apps/v1
 kind: apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -22,7 +22,7 @@ spec:
         - containerPorts: 80
 ---        
 
-apiVersion: apps/vi
+apiVersion: apps/v1
 kind: apiVersion: apps/v1
 kind: Deployment
 metadata:
