@@ -1,8 +1,8 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: myapp
-  labels: my-app-svc
+  name: my
+  labels: my-app--home-svc
 spec:
   selector:
     app: myapp
