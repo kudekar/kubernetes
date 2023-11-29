@@ -4,10 +4,10 @@ kind: Deployment
 metadata:
   name: home
   labels: 
-  apps:home
+    apps:home
 spec:
-  elector :
- s   matchLabels:
+  selector :
+    matchLabels:
       apps: home
   template:
     metadata:
