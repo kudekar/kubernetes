@@ -26,7 +26,7 @@ kind: Deployment
 metadata:
   name: home2
   labels: 
-    apps:home2
+    apps: home2
 spec:
   selector :
     matchLabels:
