@@ -16,8 +16,7 @@ spec:
         apps: home
       spec:
       containers:
-  
-  name:
+      - name:
      hme    -  nasme: hose
   
   lamage: <Image>
