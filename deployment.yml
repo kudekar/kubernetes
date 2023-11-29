@@ -25,16 +25,16 @@ spec:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: home
+  name: home2
   labels: 
-    apps:home
+    apps:home2
 spec:
   selector :
     matchLabels:
-      apps: home
+      apps: home2
   template:
     metadata:
-      name: home
+      name: home2
       labels:
         apps: home
       spec:
