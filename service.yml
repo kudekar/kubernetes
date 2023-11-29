@@ -25,4 +25,5 @@ spec:
     app: myappmy-app-home2-svc2
   ports:
   - port: 80
+    nginx:
     targetPort: 80
