@@ -21,9 +21,4 @@ spec:
         ports:
         - containerPorts: 80
   
-  lamage: <Image>
-        rurces:
-    
-      name: home      limiss:
-            memory: "128Mi"
-            cpu: "50  name: home        - ct: <Port>
+ 
