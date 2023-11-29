@@ -6,7 +6,28 @@ metadata:
   labels: 
     apps:home
 spec:
+  selector :apiVersion: apps/vi
+kind: apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: home
+  labels: 
+    apps:home
+spec:
   selector :
+    matchLabels:
+      apps: home
+  template:
+    metadata:
+      name: home
+      labels:
+        apps: home
+      spec:
+      containers:
+      - name: myhttpd
+        image: httpd
+        ports:
+        - containerPorts: 80
     matchLabels:
       apps: home
   template:
@@ -22,4 +43,3 @@ spec:
         - containerPorts: 80
 ---        
 
-api
