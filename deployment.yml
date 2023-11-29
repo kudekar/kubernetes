@@ -9,26 +9,18 @@ spec:
   selector:
     matchLabels:
       app: home
-  
-  labels: 
-    app:home
   template:
     metadata:
       labels:
 s       app: home
     
-    labels: 
-      app:home
-    spec:
+      spec:
       containers:
       - name: hose
   
-  labels: 
-    app:home
-        image: <Image>
+  lamage: <Image>
         resources:
           limiss:
             memory: "128Mi"
-            cpu: "500m"
-        ports:
-        - containerPort: <Port>
+            cpu: "500m
+        - ct: <Port>
