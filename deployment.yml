@@ -18,7 +18,8 @@ spec:
       containers:
       - name: myhttpd
         image: httpd
-        
+        ports:
+          containerPorts
   
   lamage: <Image>
         rurces:
