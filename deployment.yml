@@ -4,11 +4,11 @@ kind: Deployment
 metadata:
   name: home
   labels: 
-    app:home
+    apps:home
 spec:
   elector :
  s   matchLabels:
-      app: home
+      apps: home
   template:
     metadata:
       name: home
