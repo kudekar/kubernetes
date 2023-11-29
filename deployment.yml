@@ -1,10 +1,9 @@
 apiVersion: apps/v1
-kind: apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: home
   labels: 
-    apps:home
+    apps: home
 spec:
   selector :
     matchLabels:
