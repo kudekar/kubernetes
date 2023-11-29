@@ -12,7 +12,7 @@ spec:
       - pathType: Prefix
         path: "/"
         backend:
-          service:
-            name: 
+          service: 
+            name: myappmy-app-home-svc
             port: 
-              number: <Port>
+              number: 80
