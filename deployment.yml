@@ -17,6 +17,7 @@ spec:
       spec:
       containers:
       - name: myhttp
+        image: httpd
         nasme: hose
   
   lamage: <Image>
