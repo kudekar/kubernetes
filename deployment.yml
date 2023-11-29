@@ -6,18 +6,18 @@ metadata:
   labels: 
     app:home
 spec:
-  selector:
-    matchLabels:
+  elector :
+ s   matchLabels:
       app: home
   template:
     metadata:
       name: home
       labels:
-s       app: home
+        apps: home
       spec:
       containers:
   
-    name: home    - name: hose
+    name: hme    -  nasme: hose
   
   lamage: <Image>
         rurces:
