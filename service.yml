@@ -6,7 +6,7 @@ metadata:
   apps: my-app-home-svc
 spec:
 type: NodePort
-  selector:
+selector:
     app: myapp
   ports:
   - port: <Port>
