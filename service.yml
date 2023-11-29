@@ -5,9 +5,9 @@ metadata:
   labels: 
   apps: my-app-home-svc
 spec:
-type: NodePort
-selector:
-    app: myapp
+  type: NodePort
+  selector:
+    app: myappmy-app-home-svc
   ports:
   - port: <Port>
     targetPort: <Target Port>
