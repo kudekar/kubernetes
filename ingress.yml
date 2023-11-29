@@ -17,7 +17,7 @@ spec:
             port: 
               number: 80
       - pathType: Prefix
-        path: "/"
+        path: 
         backend:
           service: 
             name: my-app-home2-svc2
