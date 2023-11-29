@@ -2,18 +2,21 @@ apiVersion: apps/vi
 kind: apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: 
+  name: home
 spec:
   selector:
     matchLabels:
-      app: 
+      app: home
+  
   template:
     metadata:
       labels:
-        app: 
+        app: home
+    
     spec:
       containers:
-      - name: 
+      - name: home
+  
         image: <Image>
         resources:
           limits:
