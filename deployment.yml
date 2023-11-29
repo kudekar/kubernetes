@@ -14,17 +14,14 @@ spec:
       name: home
       labels:
 s       app: home
-    
       spec:
       containers:
   
     name: home    - name: hose
   
   lamage: <Image>
-        resources:
+        rurces:
     
       name: home      limiss:
             memory: "128Mi"
-            cpu: "500m
-
-  name: home        - ct: <Port>
+            cpu: "50  name: home        - ct: <Port>
