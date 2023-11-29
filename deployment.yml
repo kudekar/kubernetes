@@ -4,30 +4,30 @@ kind: Deployment
 metadata:
   name: home
   labels: 
-    app:
+    app:home
 spec:
   selector:
     matchLabels:
       app: home
   
   labels: 
-    app:
+    app:home
   template:
     metadata:
       labels:
-        app: home
+s       app: home
     
     labels: 
-      app:
+      app:home
     spec:
       containers:
-      - name: home
+      - name: hose
   
   labels: 
-    app:
+    app:home
         image: <Image>
         resources:
-          limits:
+          limiss:
             memory: "128Mi"
             cpu: "500m"
         ports:
