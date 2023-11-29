@@ -36,10 +36,10 @@ spec:
     metadata:
       name: home2
       labels:
-        apps: home
+        apps: home2
       spec:
       containers:
-      - name: myhttpd
+      - name: nginx
         image: httpd
         ports:
         - containerPorts: 80
