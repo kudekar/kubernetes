@@ -17,11 +17,11 @@ kind: Service
 metadata:
   name: my-svc-2
   labels: 
-  apps: my-app-home-svc
+  apps: my-app-home2-svc2
 spec:
   type: NodePort
   selector:
-    app: myappmy-app-home-svc
+    app: myappmy-app-home2-svc2
   ports:
   - port: 80
     targetPort: 80
