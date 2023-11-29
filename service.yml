@@ -10,4 +10,5 @@ spec:
     app: myappmy-app-home-svc
   ports:
   - port: 80
-    targetPort: <Target Port>
+    targetPort: 80
+---
