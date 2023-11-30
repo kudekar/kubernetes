@@ -18,7 +18,7 @@ kind: Service
 metadata:
   name: my-svc-2
   labels: 
-  apps: my-app-home2-svc2
+    apps: my-app-home2-svc2
 spec:
   type: NodePort
   selector:
