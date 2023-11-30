@@ -16,9 +16,9 @@ spec:
     spec:
       containers:
       - name: myhttpd
-        image: httpd
+        image: nginx
         ports:
-        - containerPorts: 80
+        - containerPort: 80
 ---        
 
 apiVersion: apps/v1
