@@ -20,7 +20,7 @@ metadata:
     apps: my-app-home2-svc2
 spec:
   selector:
-    app: myappmy-app-home2-svc2
+    app: home2
   ports:
   - port: 80
     name: nginx
