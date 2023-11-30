@@ -20,6 +20,6 @@ spec:
         path: "/home2"
         backend:
           service: 
-            name: my-svc2
+            name: my-svc-2
             port: 
               number: 80
