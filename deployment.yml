@@ -39,6 +39,6 @@ spec:
     spec:
       containers:
       - name: home2
-        image: nginx
+        image: httpd
         ports:
         - containerPort: 80
