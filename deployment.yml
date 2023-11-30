@@ -1,15 +1,15 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: html
+  name: httpd
 spec:
   selector:
     matchLabels:
-      app: html
+      app: httpd
   template:
     metadata:
       labels:
-        app: myapp
+        app: httpd
     spec:
       containers:
       - name: myapp
