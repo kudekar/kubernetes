@@ -36,7 +36,7 @@ spec:
       name: home2
       labels:
         apps: home2
-      spec:
+    spec:
         containers:
         - name: home2
           image: nginx
