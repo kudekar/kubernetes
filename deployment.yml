@@ -37,8 +37,8 @@ spec:
       labels:
         apps: home2
     spec:
-        containers:
-        - name: home2
-          image: nginx
-          ports:
-          - containerPorts: 80
+      containers:
+      - name: home2
+        image: nginx
+        ports:
+        - containerPorts: 80
