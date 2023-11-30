@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: my-svc
   labels: 
-    apps: home
+    apps: my-svc
 spec:
   selector:
     app: home
@@ -17,7 +17,7 @@ kind: Service
 metadata:
   name: my-svc-2
   labels: 
-    apps: home2
+    apps: Service
 spec:
   selector:
     app: home2
