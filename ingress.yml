@@ -13,13 +13,13 @@ spec:
         path: "/"
         backend:
           service: 
-            name: myappmy-app-home-svc
+            name: my-svc
             port: 
               number: 80
       - pathType: Prefix
         path: "/home2"
         backend:
           service: 
-            name: my-app-home2-svc2
+            name: my-svc2
             port: 
               number: 80
