@@ -41,4 +41,4 @@ spec:
         - name: home2
           image: nginx
           ports:
-          - containerPorts: 80
+          - containerPorts: 80\
