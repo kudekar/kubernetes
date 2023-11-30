@@ -6,7 +6,7 @@ metadata:
     apps: my-svc
 spec:
   selector:
-    app: home
+    app: httpd
   ports:
   - port: 80
     name: httpd
@@ -20,7 +20,7 @@ metadata:
     apps: my-svc-2
 spec:
   selector:
-    app: home2
+    app: nginx
   ports:
   - port: 80
     name: nginx
