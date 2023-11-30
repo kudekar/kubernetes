@@ -17,7 +17,7 @@ kind: Service
 metadata:
   name: my-svc-2
   labels: 
-    apps: my-app-home2-svc2
+    apps: home2
 spec:
   selector:
     app: home2
