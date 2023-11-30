@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: myhttpd
-        image: nginx
+        image: httpd
         ports:
         - containerPort: 80
 ---        
@@ -39,6 +39,6 @@ spec:
     spec:
       containers:
       - name: home2
-        image: httpd
+        image: nginx
         ports:
         - containerPort: 80
