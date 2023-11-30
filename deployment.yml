@@ -13,12 +13,12 @@ spec:
       name: home
       labels:
         apps: home
-      spec:
-        containers:
-        - name: myhttpd
-          image: httpd
-          ports:
-          - containerPorts: 80
+    spec:
+      containers:
+      - name: myhttpd
+        image: httpd
+        ports:
+        - containerPorts: 80
 ---        
 
 apiVersion: apps/v1
