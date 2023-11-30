@@ -6,7 +6,7 @@ metadata:
     apps: my-app-home-svc
 spec:
   selector:
-    app: myappmy-app-home-svc
+    app: home
   ports:
   - port: 80
     name: httpd
