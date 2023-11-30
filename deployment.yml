@@ -38,14 +38,10 @@ spec:
         apps: home2
     spec:
       containers:
-      - name: myapp
+      - name: home2
         image: nginx
-        resources:
-          limits:
-            memory: "128Mi"
-            cpu: "500m"
         ports:
-        - containerPort: <Port>
+        - containerPort: 80
 
 kind: apiVersion: apps/v1
 kind: Deployment
