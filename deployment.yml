@@ -1,43 +1,22 @@
-apiVersion: apps/v1
+kind: apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: home
-  labels: 
-    apps: home
+  name: myapp
 spec:
-  selector :
+  selector:
     matchLabels:
-      apps: home
+      app: myapp
   template:
     metadata:
-      name: home
       labels:
-        apps: home
+        app: myapp
     spec:
       containers:
-      - name: myhttpd
-        image: httpd
+      - name: myapp
+        image: <Image>
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
         ports:
-        - containerPort: 80
----        
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: home2
-  labels: 
-    apps: home2
-spec:
-  selector :
-    matchLabels:
-      apps: home2
-  template:
-    metadata:
-      name: home2
-      labels:
-        apps: home2
-    spec:
-      containers:
-      - name: home2
-        image: nginx
-        ports:
-        - containerPort: 80
+        - containerPort: <Port>
